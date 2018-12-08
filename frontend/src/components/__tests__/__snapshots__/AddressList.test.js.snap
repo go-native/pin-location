@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressList should render properly 1`] = `
+Array [
+  <AddressDetails
+    address={
+      Object {
+        "address": "Leipziger strasse",
+        "id": "1544109127653",
+        "lat": 52.511123,
+        "lng": 13.399605,
+        "title": "Leipziger str.",
+      }
+    }
+    key="Leipziger str."
+  />,
+  <AddressDetails
+    address={
+      Object {
+        "address": "Spandauer strasse",
+        "id": "1544109127654",
+        "lat": 52.511144,
+        "lng": 13.399655,
+        "title": "Spandauer str.",
+      }
+    }
+    key="Spandauer str."
+  />,
+]
+`;

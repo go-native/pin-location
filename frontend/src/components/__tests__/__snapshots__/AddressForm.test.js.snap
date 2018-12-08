@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressForm should render properly for creating 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <div
+    className="label"
+  >
+    Title:
+  </div>
+  <input
+    className="text_field"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <div
+    className="label"
+  >
+    Address:
+  </div>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={true}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Query geocoding API",
+        "value": "",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+    theme={
+      Object {
+        "container": "react-autosuggest__container",
+        "containerOpen": "react-autosuggest__container--open",
+        "input": "react-autosuggest__input",
+        "inputFocused": "react-autosuggest__input--focused",
+        "inputOpen": "react-autosuggest__input--open",
+        "sectionContainer": "react-autosuggest__section-container",
+        "sectionContainerFirst": "react-autosuggest__section-container--first",
+        "sectionTitle": "react-autosuggest__section-title",
+        "suggestion": "react-autosuggest__suggestion",
+        "suggestionFirst": "react-autosuggest__suggestion--first",
+        "suggestionHighlighted": "react-autosuggest__suggestion--highlighted",
+        "suggestionsContainer": "react-autosuggest__suggestions-container",
+        "suggestionsContainerOpen": "react-autosuggest__suggestions-container--open",
+        "suggestionsList": "react-autosuggest__suggestions-list",
+      }
+    }
+  />
+  <br />
+  <div>
+    <input
+      className="action-btn save-btn"
+      disabled={true}
+      type="submit"
+      value="Submit"
+    />
+    <button
+      className="action-btn cancel-btn"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;
+
+exports[`AddressForm should render properly for editing 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <div
+    className="label"
+  >
+    Title:
+  </div>
+  <input
+    className="text_field"
+    onChange={[Function]}
+    type="text"
+    value="Leipziger str."
+  />
+  <div
+    className="label"
+  >
+    Address:
+  </div>
+  <Autosuggest
+    alwaysRenderSuggestions={false}
+    focusInputOnSuggestionClick={true}
+    getSuggestionValue={[Function]}
+    highlightFirstSuggestion={false}
+    id="1"
+    inputProps={
+      Object {
+        "onChange": [Function],
+        "placeholder": "Query geocoding API",
+        "value": "Leipziger strasse",
+      }
+    }
+    multiSection={false}
+    onSuggestionSelected={[Function]}
+    onSuggestionsClearRequested={[Function]}
+    onSuggestionsFetchRequested={[Function]}
+    renderSuggestion={[Function]}
+    renderSuggestionsContainer={[Function]}
+    shouldRenderSuggestions={[Function]}
+    suggestions={Array []}
+    theme={
+      Object {
+        "container": "react-autosuggest__container",
+        "containerOpen": "react-autosuggest__container--open",
+        "input": "react-autosuggest__input",
+        "inputFocused": "react-autosuggest__input--focused",
+        "inputOpen": "react-autosuggest__input--open",
+        "sectionContainer": "react-autosuggest__section-container",
+        "sectionContainerFirst": "react-autosuggest__section-container--first",
+        "sectionTitle": "react-autosuggest__section-title",
+        "suggestion": "react-autosuggest__suggestion",
+        "suggestionFirst": "react-autosuggest__suggestion--first",
+        "suggestionHighlighted": "react-autosuggest__suggestion--highlighted",
+        "suggestionsContainer": "react-autosuggest__suggestions-container",
+        "suggestionsContainerOpen": "react-autosuggest__suggestions-container--open",
+        "suggestionsList": "react-autosuggest__suggestions-list",
+      }
+    }
+  />
+  <div
+    className="label"
+  >
+    Latitude: 
+    52.511123
+     / Longitude: 
+    13.399605
+  </div>
+  <br />
+  <div>
+    <input
+      className="action-btn save-btn"
+      disabled={false}
+      type="submit"
+      value="Submit"
+    />
+    <button
+      className="action-btn cancel-btn"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;

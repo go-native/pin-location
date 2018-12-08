@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoogleMap should render properly 1`] = `
+<withScriptjs(withGoogleMap(Component))
+  addresses={
+    Array [
+      Object {
+        "address": "Leipziger strasse",
+        "id": "1544109127653",
+        "lat": 52.511123,
+        "lng": 13.399605,
+        "title": "Leipziger str.",
+      },
+      Object {
+        "address": "Spandauer strasse",
+        "id": "1544109127654",
+        "lat": 52.511144,
+        "lng": 13.399655,
+        "title": "Spandauer str.",
+      },
+    ]
+  }
+  containerElement={
+    <div
+      style={
+        Object {
+          "height": "400px",
+        }
+      }
+    />
+  }
+  googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIyiOIYzLHC1zAtUDITS8FeJ_I1NX_vc0&v=3.exp&libraries=geometry,drawing,places"
+  loadingElement={
+    <div
+      style={
+        Object {
+          "height": "100%",
+        }
+      }
+    />
+  }
+  mapElement={
+    <div
+      style={
+        Object {
+          "height": "100%",
+        }
+      }
+    />
+  }
+/>
+`;

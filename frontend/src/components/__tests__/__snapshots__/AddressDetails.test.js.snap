@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressDeatils should render properly 1`] = `
+<div
+  className="address_container"
+>
+  <div
+    className="address_title"
+  >
+    Leipziger str.
+  </div>
+  <div
+    className="address_subtitle"
+  >
+    Leipziger strasse
+  </div>
+  <div
+    className="address_subtitle"
+  >
+    Latitude: 
+    52.511123
+  </div>
+  <div
+    className="address_subtitle"
+  >
+    Longitude: 
+    13.399605
+  </div>
+  <div
+    className="address_actions"
+  >
+    <button
+      className="action-btn edit-btn"
+      onClick={[Function]}
+    >
+      Edit
+    </button>
+    <span
+      className="separator"
+    >
+      or
+    </span>
+    <button
+      className="action-btn delete-btn"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;

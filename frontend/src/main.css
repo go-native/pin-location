@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  color: #424242;
+  overflow: hidden;
+}
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 15px;
+}
+.header {
+  padding: 5px;
+  border-bottom: 1px solid #cecece;
+}
+.btn-add {
+  border: none;
+  background: #337ab3;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.action-btn {
+  border: 1px solid #cecece;
+  background: #fff;
+  padding: 5px 8px 5px 8px;
+  color: #424242;
+  cursor: pointer;
+}
+.action-btn[disabled] {
+  opacity: 0.5;
+}
+.side-container {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  right: -400px;
+  background: #fff;
+  box-shadow: #a9a9a9 0px 0px 10px;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.side-container--open {
+  visibility: visible;
+  right: 0;
+}
+.form {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.form .react-autosuggest__input {
+  padding: 5px;
+  color: #424242;
+  flex: 1
+}
+form .text_field {
+  padding: 5px;
+  color: #424242;
+}
+.form .label {
+  padding: 8px 5px 5px 0px;
+}
+.save-btn {
+  color: #fff;
+  background: #337ab3;
+}
+.cancel-btn {
+  margin-left: 5px;
+}
+.address_container {
+  padding: 15px;
+  line-height: 1.5;
+}
+.address_title {
+  color: #337ab3;
+  font-size: 18px;
+}
+.address_actions {
+  padding-top: 5px;
+}
+.separator {
+  padding: 0px 3px 0px 3px;
+}
+.react-autosuggest__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 29px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
